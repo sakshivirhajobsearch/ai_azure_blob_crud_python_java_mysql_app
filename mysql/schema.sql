@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS ai_azure_blob;
+
+USE ai_azure_blob;
+
+CREATE TABLE blobs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    ai_metadata TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
