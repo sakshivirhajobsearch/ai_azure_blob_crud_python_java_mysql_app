@@ -19,7 +19,7 @@ No description provided.
 
 ## 🧠 Tech Stack Used
 
-- **Detected Technologies:** Azure, Java, MySQL, Python
+- **Detected Technologies:** Python, Java (Maven/Gradle), PyTorch, HuggingFace Transformers, MySQL, Azure
 - **GitHub Topics:** None
 
 ---
